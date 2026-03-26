@@ -1,0 +1,100 @@
+﻿2026-03-26 14:01:42 [START] ========================================
+2026-03-26 14:01:42 [START] Iniciando escaneo de certificados...
+2026-03-26 14:01:42 [START] Timestamp: 20260326_140142
+2026-03-26 14:01:42 [START] Directorio de salida: .\doxie-logs
+2026-03-26 14:01:42 [START] ========================================
+2026-03-26 14:01:42 [INFO] Iniciando descubrimiento de certificados en Windows Certificate Store...
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Blizzard Battle.net Local Cert, OU=Battle.net, O=Blizzard Entertainment, L=Irvine, S=California, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp. - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Symantec Enterprise Mobile Root for Microsoft, O=Symantec Corporation, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Root Certificate Authority 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft ECC Product Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft Identity Verification Root Certificate Authority 2020, O=Microsoft Corporation, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3 - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, S=Greater Manchester, C=GB - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=TWCA Root Certification Authority, OU=Root CA, O=TAIWAN-CA, C=TW - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=ISRG Root X1, O=Internet Security Research Group, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, S=Texas, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, S=Arizona, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Sectigo Public Server Authentication Root R46, O=Sectigo Limited, C=GB - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, S=Arizona, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6 - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=GlobalSign Code Signing Root R45, O=GlobalSign nv-sa, C=BE - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, S=Arizona, C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US - HEALTHY
+2026-03-26 14:01:42 [DISCOVERY] Certificado encontrado: CN=Trustwave Global Certification Authority, O="Trustwave Holdings, Inc.", L=Chicago, S=Illinois, C=US - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=Root Agency - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign, OU=VeriSign International Server CA - Class 3, OU="VeriSign, Inc.", O=VeriSign Trust Network - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=Microsoft TPM Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=AMD-KEYID-94AE1A5E93B1A4511F01A38CEFD45EF1D3B1246E - HEALTHY
+2026-03-26 14:01:43 [DISCOVERY] Certificado encontrado: CN=Microsoft Windows Hardware Compatibility, OU=Microsoft Corporation, OU=Microsoft Windows Hardware Compatibility Intermediate CA, OU=Copyright (c) 1997 Microsoft Corp. - EXPIRED CRITICAL WARNING
+2026-03-26 14:01:43 [INFO] Buscando certificados en rutas comunes...
+2026-03-26 14:01:43 [INFO] Buscando certificados en Docker...
+2026-03-26 14:01:43 [INFO] Detectando certificados de servidores web...
+2026-03-26 14:01:43 [SAVE] Certificados guardados en: .\doxie-logs\certificates-20260326_140142.json
+========================================
+DOXIEGUARD ALPHA SCAN SUMMARY
+========================================
+Scan Date: 2026-03-26 14:01:43
+Hostname: KEV
+User: santi
+
+TOTAL CERTIFICATES FOUND: 55
+
+BY STATUS:
+- HEALTHY: 47
+- WARNING: 0
+- CRITICAL: 0
+- EXPIRED: 0
+- DISCOVERED: 0
+
+BY SOURCE:
+- Windows Certificate Store: 55
+- Common Paths: 0
+- Docker: 0
+- IIS: 0
+
+CRITICAL CERTIFICATES (expiring within 30 days):
+- CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com - -1781 dÃ­as
+- CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA - -1910 dÃ­as
+- CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp. - -1911 dÃ­as
+- CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US - -9581 dÃ­as
+- OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network - -9582 dÃ­as
+- OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network - -8113 dÃ­as
+- OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign, OU=VeriSign International Server CA - Class 3, OU="VeriSign, Inc.", O=VeriSign Trust Network - -3439 dÃ­as
+- CN=Microsoft Windows Hardware Compatibility, OU=Microsoft Corporation, OU=Microsoft Windows Hardware Compatibility Intermediate CA, OU=Copyright (c) 1997 Microsoft Corp. - -8486 dÃ­as
+
+========================================
+2026-03-26 14:01:43 [INFO] Iniciando servidor HTTP en puerto 3000...
+2026-03-26 14:01:43 [SERVER] Dashboard disponible en http://localhost:3000

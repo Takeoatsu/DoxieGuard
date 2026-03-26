@@ -1,0 +1,6 @@
+.env
+*.crt
+*.key
+certs/
+node_modules/
+.prisma/

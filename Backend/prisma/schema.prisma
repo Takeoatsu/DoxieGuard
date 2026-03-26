@@ -1,0 +1,93 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id               String       @id @default(uuid())
+  email            String       @unique
+  stripeCustomerId String?
+  plan             String       @default("PUPPY")
+  assets           Asset[]
+  dnsProviders     DnsProvider[]
+  cloudProviders   CloudProvider[]
+}
+
+model Asset {
+  id                 String    @id @default(uuid())
+  name               String
+  agentToken         String    @unique @default(cuid())
+  lastHeartbeat      DateTime  @default(now())
+  userId             String
+  user               User      @relation(fields: [userId], references: [id])
+  certificates       Certificate[]
+
+  dnsProviderId      String?
+  dnsProvider        DnsProvider? @relation(fields: [dnsProviderId], references: [id])
+
+  // Nuevos campos para el certificado real
+  certificateContent String?   @db.Text
+  privateKeyContent  String?   @db.Text
+  issuedAt           DateTime?
+}
+
+model Certificate {
+  id                String    @id @default(uuid())
+  domain            String    @unique
+  status            String    @default("ACTIVE")
+  expiresAt         DateTime
+  assetId           String?
+  asset             Asset?    @relation(fields: [assetId], references: [id])
+  
+  // Campos específicos para cloud
+  cloudProviderId   String?
+  cloudProvider     CloudProvider? @relation(fields: [cloudProviderId], references: [id])
+  cloudResourceType String?   // "acm", "elb", "cloudfront"
+  cloudResourceId   String?   // ARN, Distribution ID, etc.
+  cloudRegion       String?   // Región del recurso
+  
+  // Campos opcionales para certificados almacenados
+  certificateContent String?   @db.Text
+  privateKeyContent  String?   @db.Text
+  issuedAt          DateTime?
+  
+  // Campos para renovación automática
+  autoRenew        Boolean   @default(false)
+  renewalDaysBefore Int       @default(30)
+  lastRenewal      DateTime?
+  
+  // Campo calculado para días restantes (se actualiza automáticamente)
+  daysLeft         Int?      @default(0)
+  
+  // Historial de health status
+  healthStatus     String?   // "HEALTHY", "WARNING", "CRITICAL"
+  lastHealthCheck  DateTime?
+}
+
+model DnsProvider {
+  id        String   @id @default(cuid())
+  provider  String   // "CLOUDFLARE", "AWS_ROUTE53", etc.
+  apiKey    String   // Aquí guardaremos el token (idealmente cifrado)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  assets    Asset[]  // Los assets que usarán este proveedor
+}
+
+model CloudProvider {
+  id            String   @id @default(cuid())
+  provider      String   // "aws", "azure", "gcp"
+  name          String   // Nombre descriptivo
+  credentials   String   // Credenciales encriptadas (JSON)
+  regions       String[] // Regiones a escanear
+  enabled       Boolean  @default(true)
+  lastSync      DateTime?
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+  certificates  Certificate[]
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}

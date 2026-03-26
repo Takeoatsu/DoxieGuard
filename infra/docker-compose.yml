@@ -1,0 +1,22 @@
+# Docker Compose file for setting up a PostgreSQL database for the Doxie project.
+version: '3.8'
+# This configuration defines a single service for the PostgreSQL database, including environment variables 
+# for the database user, password, and name. It also maps the default PostgreSQL port and sets up a volume 
+# for data persistence.
+services:
+  # Database service using the official PostgreSQL image
+  db:
+    image: postgres:15 # Use the latest PostgreSQL 15 image
+    container_name: doxie_db # Name of the container for easier reference
+    restart: always # Automatically restart the container if it stops
+    environment: # Environment variables for PostgreSQL configuration
+      POSTGRES_USER: doxieroot # Username for the PostgreSQL database
+      POSTGRES_PASSWORD: doxiepassword123 # Password for the PostgreSQL database
+      POSTGRES_DB: doxiedb # Name of the PostgreSQL database to be created
+    ports: 
+      - "5432:5432" # Map the default PostgreSQL port to the host machine
+    volumes:
+      - doxie_data:/var/lib/postgresql/data # Persist data in a named volume
+
+volumes: 
+  doxie_data: # Define a named volume for PostgreSQL data persistence
